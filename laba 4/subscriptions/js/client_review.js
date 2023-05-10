@@ -25,6 +25,8 @@ for (let index = 0; index < text[0].length; index++) {
     let pTitle = document.createElement("p")
     pTitle.textContent = text[0][index].id
     div.append(pTitle)
+    let br = document.createElement("br")
+    div.append(br)
     let pText = document.createElement("p")
     pText.textContent = text[1][index].id
     div.append(pText)
